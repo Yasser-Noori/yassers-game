@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   padding: 20px;
+  font-family: 'raleway';
 }
 
 canvas {
