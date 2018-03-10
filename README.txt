@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/tompark/pen/OzzJJj.
+A repository created by Yasser Noori at github.com
 
- Multiplayer client example rendering multiple players using socket.io
+Multiplayer client example rendering multiple players using socket.io
