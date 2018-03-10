@@ -3,6 +3,8 @@
 body {
   padding: 20px;
   font-family: 'raleway';
+  background: #333;
+  color: #eaeaea;
 }
 
 canvas {
