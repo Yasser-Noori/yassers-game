@@ -2,6 +2,13 @@
 var address = "https://server-djwxqxfveu.now.sh";
 var socket = io(address);
 
+socket.set('player', player, function() {
+  // callback is called when variable is successfully stored
+  console.log('player has been stored');
+});
+
+player();
+
 socket.on("connect", function () {
   return socket.emit('newPlayer');
 });
