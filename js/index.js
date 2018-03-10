@@ -33,7 +33,10 @@ var movement = {
 
 function broadcastMovement() {
   socket.emit("movement", movement);
+  socket.alert("test");
 }
+
+  socket.emit("movement", movement);
 
 // Controls
 
